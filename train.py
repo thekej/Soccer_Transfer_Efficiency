@@ -113,8 +113,6 @@ def main(args):
     pre = 0
     if args.pretrained:
         model.load_state_dict(torch.load(args.model_path))
-        print torch.load(args.model_path)
-        exit()
         pre = int(args.model_path.split('-')[1].split('.')[0])
     logging.info("Done")
 

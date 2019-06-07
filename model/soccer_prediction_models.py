@@ -1,14 +1,9 @@
-"""Contains model that uses Stacked Attention for VQA.
-"""
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torchvision.models as models
 
 class SoccerPredictionDeepModel(nn.Module):
-    """CNN models using pytorch zoo.
-    """
     def __init__(self, mode='Resnet', output_size=3):
         super(SoccerPredictionDeepModel, self).__init__()
         self.mode = mode

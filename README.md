@@ -1,5 +1,5 @@
 # A Prospective Approach to Soccer Transfer Efficiency
 
-A fun 2-day project I did for a class.
+A fun project I worked on for a class.
 Read the pdf to understand what it is about.
 Brief presentation of the project: https://docs.google.com/presentation/d/1iPmS5DRu1MVn6B5GwLfiGzrBJfL-jUwvaxowujAxaec/edit?usp=sharing

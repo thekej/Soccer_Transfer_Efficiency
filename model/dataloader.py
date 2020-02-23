@@ -12,7 +12,7 @@ class Dataset(data.Dataset):
     """
 
     def __init__(self, dataset, indices=None):
-        """Set the path for images, captions and vocabulary wrapper.
+        """Set the path for game data.
         
         Args:
             dataset: annotation hdf5 location.

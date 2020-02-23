@@ -15,7 +15,7 @@ class Dataset(data.Dataset):
         """Set the path for images, captions and vocabulary wrapper.
         
         Args:
-            dataset: VisualGenome QA annotation hdf5 location.
+            dataset: annotation hdf5 location.
         """
         self.dataset = dataset
         self.indices = indices

@@ -21,7 +21,7 @@ class Dataset(data.Dataset):
         self.indices = indices
 
     def __getitem__(self, index):
-        """Returns one data pair and length (question, answer, length).
+        """Returns game, result, home, away.
         """
         if not hasattr(self, 'questions'):
             annos = h5py.File(self.dataset, 'r')
